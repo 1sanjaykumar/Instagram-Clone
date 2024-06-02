@@ -240,6 +240,20 @@ button {
   .img {
     display: none;
   }
+  .tisra:hover {
+    color: #2a5faf;
+    font-size: 6vw;
+    transition: 0.5s;
+  }
+  }
+  .facebook:hover {
+    font-size: 5vw;
+    transition: 0.2s;
+  }
+  .input1:hover {
+    font-size: 4vw;
+    transition: 0.1s;
+  }
   main {
     width: 800px;
     gap: 20px;
