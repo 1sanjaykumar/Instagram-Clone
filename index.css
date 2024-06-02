@@ -30,22 +30,33 @@ main {
   width: 50%;
   height: 100%;
 }
-
+.pahla:hover {
+  border: 2px solid black;
+  transition: 0.2s;
+}
 .pahla {
   width: 100%;
   height: 73%;
-  border: 1px solid #cfcfcf;
+  border: 2px solid #cfcfcf;
   border-radius: 5px;
 }
-
+.imag {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .img1 {
-  padding-left: 55px;
-  padding-top: 24px;
-
+  margin-top: 24px;
+  border-radius: 10px;
+  border: 2px solid transparent;
   width: 60%;
   height: 50px;
 }
-
+.img1:hover {
+  border: 2px solid black;
+}
 .in {
   width: 90%;
   height: 35px;
@@ -60,6 +71,13 @@ main {
   padding-left: 10px;
   width: 100%;
   height: 100%;
+}
+.input1:hover {
+  font-size: 1.01vw;
+  transition: 0.1s;
+}
+button:hover {
+  border: 1px solid black;
 }
 .in2 {
   width: 90%;
@@ -89,7 +107,7 @@ button {
   border: transparent;
   height: 100%;
   color: white;
-  background-color: #61a1fe;
+  background: linear-gradient(150deg, #98dbf9, #3281f8, #cfcfcf);
 }
 
 .text-between-lines {
@@ -118,28 +136,48 @@ button {
   left: 55%;
   margin-left: 10px;
 }
+
+.text-between-lines:hover {
+  color: black;
+}
 .facebook {
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
-
   color: #172f80;
 }
 .facebooki {
   padding-right: 5px;
   width: 20px;
 }
+.facebook:hover {
+  font-size: 1.1vw;
+  transition: 0.2s;
+}
 
-.forget {
+.for {
+  width: 100%;
   color: #0d6efd;
   font-weight: bold;
   margin-top: 10px;
-  margin-left: 90px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.for:hover {
+  font-weight: bolder;
+  color: #0252c9;
+}
+
 .sp {
   color: #0d6efd;
   font-weight: bold;
+}
+.sp:hover {
+  color: #3a86f8;
 }
 .dusra {
   display: flex;
@@ -149,7 +187,7 @@ button {
   margin-top: 7px;
   width: 100%;
   height: 8%;
-  border: 1px solid #cfcfcf;
+  border: 2px solid #cfcfcf;
   border-radius: 5px;
 }
 .tisra {
@@ -160,20 +198,42 @@ button {
   height: 8%;
   color: #0d6efd;
   font-size: 1.4vw;
+  font-weight: bold;
 }
-
+.dusra:hover {
+  border: 2px solid black;
+  transition: 0.2s;
+}
 .im {
   display: flex;
   justify-content: center;
   gap: 20px;
 }
 .playstore {
+  border-radius: 5px;
   margin-top: 10px;
   width: 150px;
+  border: 3px solid transparent;
 }
+
 .appstore {
+  border-radius: 5px;
   margin-top: 10px;
   width: 150px;
+  border: 3px solid transparent;
+}
+.appstore:hover {
+  border: 3px solid black;
+}
+
+.playstore:hover {
+  border: 3px solid black;
+}
+
+.tisra:hover {
+  color: #2a5faf;
+  font-size: 1.6vw;
+  transition: 0.5s;
 }
 
 @media only screen and (max-width: 600px) {
